@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import myPic from '../assets/my-pic.jpg';
 
 const About = () => {
   return (
@@ -11,8 +12,9 @@ const About = () => {
       <div className="all-about">
       <div className='hero-left'>
            
-             <img src="src/assets/my-pic.jpg"
-              alt="Aditi" className="my-pic"></img>
+             {/* <img src="src/assets/my-pic.jpg"
+              alt="Aditi" className="my-pic"></img> */}
+               <img src={myPic} alt="Aditi" className="my-pic" />
            </div>
       <div className="about-me-right">
       <h2>About Me</h2>

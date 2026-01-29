@@ -24,8 +24,7 @@ const Section = () => {
         
         <div className='hero-right'>
            
-             {/* <img src="src/assets/my-pic.jpg"
-              {/* alt="Aditi" className="my-pic"></img> */} */}
+            
               <img src={myPic} alt="Aditi" className="my-pic" />
 
            </div>
