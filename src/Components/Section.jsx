@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import myPic from '../assets/my-pic.jpg';
 
 const Section = () => {
   return (
@@ -23,8 +24,10 @@ const Section = () => {
         
         <div className='hero-right'>
            
-             <img src="src/assets/my-pic.jpg"
-              alt="Aditi" className="my-pic"></img>
+             {/* <img src="src/assets/my-pic.jpg"
+              {/* alt="Aditi" className="my-pic"></img> */} */}
+              <img src={myPic} alt="Aditi" className="my-pic" />
+
            </div>
         </div>
         </div>
